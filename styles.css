@@ -192,9 +192,6 @@ nav button {
   border-radius:65px;
   background-color:black;
   border:0px;
-  font-size: 18px;
-  font-weight: bolder;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   cursor: pointer;
   position: fixed;
   top:10px;
