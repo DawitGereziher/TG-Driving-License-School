@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Slider</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <div class="slider">
+      <div class="slides" style="width: 1500px;"> <!-- Adjust the width to the total width of all slides -->
+        <img class="slide" src="1.png" alt="Image 1">
+        <img class="slide" src="2.png" alt="Image 2">
+        <img class="slide" src="4.png" alt="Image 3">
+        <img class="slide" src="5.png" alt="Image 3">
+      </div>
+    </div>
+    
+<nav>
+    <a href="#home">Home</a>
+    <a href="#materials">Lecture Materials</a>
+    <a href="#practice">Practice Exam</a>
+    <a href="#contacts">Contacts</a>
+    <a href="#about_us">About Us</a>
+    <a href="#register">Register</a>
+    <button onclick="bright()" class="light_dark"></button>
+   </nav>
+    <div class="holder">
+       <div  class="home">
+           <h1>
+              Welcome to TG Driving License School
+           </h1>
+           <p>
+
+                   Unlock Your Road to Independence and Confidence
+        
+                  At TG, we're dedicated to empowering individuals 
+                  </br>with the skills and knowledge they need to become safe, 
+                  confident, and responsible drivers for life. </br>With our expert instructors and comprehensive curriculum, we strive to make the journey to obtaining your </br>driver's license an enjoyable and enriching experience.
+        
+               <h2> 
+                  Why Choose Us?
+               </h2>
+        
+                    Qualified Instructors: Our team of certified driving instructors brings years of experience and expertise to every lesson,  </br>ensuring that you receive the highest standard of instruction tailored to your learning style and pace.
+               <div class="text_boxes_holder">
+                 <div class="text_boxes">
+                     <h3>
+                        Flexible Scheduling
+                     </h3> 
+                           We understand that your life is busy, which is why we offer flexible scheduling 
+                          </br>options to accommodate your commitments and preferences. Whether you prefer daytime, 
+                          </br>evening, or weekend lessons, we've got you covered.
+                </div>
+                <div class="text_boxes">
+                     <h3>
+                        Comprehensive Curriculum
+                     </h3> Our curriculum covers everything from the basics of vehicle operation to defensive driving techniques.
+                </div>
+        <div class="text_boxes"> 
+                    <h3>
+                          State-of-the-Art Facilities
+                    </h3> Learn in a comfortable and modern environment equipped with the latest teaching aids </br>and simulation technology to enhance your learning experience.</div>
+         </div> 
+                    <h2>
+                        Our Services
+                    </h2>
+            <div class="text_boxes_holder">
+                     <div class="text_boxes"><h3>
+                        Adult Driving Lessons
+                    </h3> Whether you're a complete novice or seeking to brush up on your skills, </br>our adult driving lessons are tailored to your individual needs and experience level.
+                     </div>
+                     <div class="text_boxes"><h3>
+                        License Test Preparation
+                    </h3> Feeling nervous about your driving test? 
+                     </br>Our instructors will work with you to build confidence and ensure you're fully prepared to ace your exam.
+                    </div> 
+                   <div class="text_boxes"><h3>
+                           Defensive Driving Courses
+                        </h3> Enhance your driving skills and lower your insurance premiums with our defensive driving courses, 
+                          </br>which teach advanced techniques for anticipating and avoiding potential hazards on the road.
+                     </div>
+            </div>
+        <h2>Get Started Today</h2>
+        
+        Ready to embark on your journey towards becoming a confident and competent driver?</br></br>Contact us now to schedule your first lesson or inquire about our services. Join the thousands of satisfied students </br>who have chosen TG to guide them on the road to success.</p>
+        </div>
+        
+    </div>
+    <div class="register_holder">
+      <div class="register">
+        <fieldset id="register">
+              <form action="">
+                 <legend>Register</legend>
+                 <label>First Name<input type="text" placeholder="Type your first name"></label>
+                 <label>Last Name<input type="text" placeholder="Type your last name"></label>
+                 <label>Middle Name<input type="text" placeholder="Type your middle name"></label>
+                 <label>Email<input type="email" placeholder="email"></label>
+                 <label>Create Password<input type="password" placeholder="Create password"></label>
+                 <label>Rewrite password<input type="password" placeholder="rewrite password"></label>
+                 <label>Date of birth<input type="date"></label>
+                 <input type="submit" class="submit">
+                 <p>I already have an account<button onclick="loginappear()" class="login">Login</button></p>
+              </form>
+          </fieldset>
+       </div>
+       <div class="pics">
+           <img src="sp1.png">
+           <img src="sp2.jpg">
+       </div>
+   </div>
+   <h2 id="materials" class="center">Lecture Materials</h2>
+   <p class="center">There are so many videos and books that can help you on your training. </br>but there are some lecture videos we recommend for our students, to get them click the below click me button</p>
+   <div class="material_videos">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3WrqeaebCFU?si=YEp4CfDQ8OmZO0Bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/LyzneWcEeWw?si=n59yvT5nvxxbjLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tsxknF-Lapk?si=YY_X4W8ejo6mt0vZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wbEQcn3sT-U?si=cljtvV82GaG6Ksiz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_yLm5xm5Br0?si=ZxlOuFdYersw90Q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VW21J3uxnvw?si=dBN3EquShiI2mmkD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+   <div class="appear_button_holder">
+            <button onclick="appear()" class="appear_button">Click Me</button>
+   </div>
+   <h2 class="center">Practice Exam Questions</h2>
+   <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/X8AS1J0yPMQ?si=_B7bueR5RmQgIr03" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BB8AHWFfzgI?si=zhJefhQsTenLzHKJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4MOwdf7aj8s?si=FI_xygTxVO3CVvu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+   
+<script src="index.js"></script>
+
+</body>
+</html>
